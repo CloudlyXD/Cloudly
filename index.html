@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Mini Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+
+    <div class="game-container">
+        <canvas id="gameCanvas" width="330" height="330"></canvas>
+    </div>
+    <footer>
+        <nav>
+            <p>Scroll to view older levels</p>
+            <ul id="levelList">
+                <li data-level="20240720">Level 2024-07-20</li>
+                <li data-level="20240721" class="active">Level 2024-07-21</li>
+                <li data-level="20240722" class="disabled">Level 2024-07-22</li>
+            </ul>
+            <br>
+            <div class="countdown" id="countdown"></div>
+            <br>
+            created by <a href="https://t.me/UnfazedCloudly" target="_blank">Cloudly</a>
+        </nav>
+    </footer>
+
+    <script src="script/svgImage.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/daily.js"></script>
+</body>
+
+</html>
